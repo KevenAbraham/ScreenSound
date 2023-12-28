@@ -1,3 +1,5 @@
+namespace ScreenSound.Modelos;
+
 class Banda 
 {
     public string Nome { get; }
