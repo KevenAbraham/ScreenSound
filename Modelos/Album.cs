@@ -1,27 +1,28 @@
-class Album 
+class Album
 {
-    private List<Musica> musicas = new List<Musica>(); //campo privado -> significa que essa propriedade pertence apenas a essa classe.
-    public string Nome { get; }
-    public int DuracaoTotal => musicas.Sum(m => m.Duracao);
+    private List<Musica> musicas = new List<Musica>();
 
     public Album(string nome)
     {
         Nome = nome;
     }
 
-    public void AdicionarMusica(Musica musica) 
+    public string Nome { get; }
+    public int DuracaoTotal => musicas.Sum(m => m.Duracao);
+    public List<Musica> Musicas => musicas;
+
+    public void AdicionarMusica(Musica musica)
     {
         musicas.Add(musica);
     }
 
-    public void ExibirMusicasDoAlbum() 
+    public void ExibirMusicasDoAlbum()
     {
-        Console.WriteLine($"Listas de músicas do álbum {Nome}:");
-        Console.WriteLine();
-        foreach ( var musica in musicas)
+        Console.WriteLine($"Lista de músicas do álbum {Nome}:\n");
+        foreach (var musica in musicas)
         {
             Console.WriteLine($"Música: {musica.Nome}");
         }
-        Console.WriteLine($"Para ouvir este album inteiro você precisa de {DuracaoTotal}");
+        Console.WriteLine($"\nPara ouvir este álbum inteiro você precisa de {DuracaoTotal}");
     }
 }
