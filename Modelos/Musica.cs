@@ -1,6 +1,6 @@
 namespace ScreenSound.Modelos;
 
-class Musica
+internal class Musica
 {
 
     public string Nome { get; }
@@ -14,7 +14,7 @@ class Musica
         Artista = artista;
         Nome = nome;
     }
-    
+
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome: {Nome}");
