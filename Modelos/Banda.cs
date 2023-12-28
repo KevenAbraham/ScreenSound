@@ -4,15 +4,14 @@ class Banda
 {
     private List<Album> albuns = new List<Album>();
     private List<int> notas = new List<int>();
+    public string Nome { get; }
+    public double Media => notas.Average();
+    public List<Album> Albuns => albuns;
 
     public Banda(string nome)
     {
         Nome = nome;
     }
-
-    public string Nome { get; }
-    public double Media => notas.Average();
-    public List<Album> Albuns => albuns;
 
     public void AdicionarAlbum(Album album) 
     { 

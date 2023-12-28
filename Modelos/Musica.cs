@@ -2,11 +2,6 @@ namespace ScreenSound.Modelos;
 
 class Musica
 {
-    public Musica(Banda artista, string nome)
-    {
-        Artista = artista;
-        Nome = nome;
-    }
 
     public string Nome { get; }
     public Banda Artista { get; }
@@ -14,6 +9,12 @@ class Musica
     public bool Disponivel { get; set; }
     public string DescricaoResumida => $"A música {Nome} pertence à banda {Artista}";
 
+    public Musica(Banda artista, string nome)
+    {
+        Artista = artista;
+        Nome = nome;
+    }
+    
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome: {Nome}");
