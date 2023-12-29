@@ -2,7 +2,7 @@ using ScreenSound.Modelos;
 
 namespace ScreenSound.Menus;
 
-internal class MenuExibirDetalhes
+internal class MenuExibirDetalhes : Menu
 {
 
 
