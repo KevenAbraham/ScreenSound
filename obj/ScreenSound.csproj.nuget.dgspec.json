@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\97523\\Desktop\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\97523\\Desktop\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\97523\\Desktop\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\97523\\Desktop\\ScreenSound\\ScreenSound.csproj",
-        "packagesPath": "C:\\Users\\97523\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\97523\\Desktop\\ScreenSound\\obj\\",
+        "projectPath": "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\ScreenSound.csproj",
+        "packagesPath": "C:\\Users\\abrah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\97523\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\abrah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

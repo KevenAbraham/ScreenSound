@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5Mi86Zv4YrFCLf8vFsaeOwDB0i3qck9RgkN9vXIFhTOiow0RhDMWbALMRHJ/TSok6zQVUb+S4o7aUwvtWhrlbA==",
+  "dgSpecHash": "tOSmtIX9Qqe0c6ONNC1g40AfB7S6ITmD5DEZFn+udBqs01OagqEeXT9jRG2BgggqlemFZnUQT1mdNgghWTq9nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\97523\\Desktop\\ScreenSound\\ScreenSound.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\abrah\\OneDrive\\Documentos\\C#\\Alura\\ScreenSound\\ScreenSound.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abrah\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\abrah\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\abrah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\abrah\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
