@@ -56,11 +56,13 @@ internal class Program
                     MostrarBandasRegistradas();
                     break;
                 case 4:
-                    AvaliarUmaBanda();
+                    MenuAvaliarBanda menu4 = new();
+                    menu4.Executar(bandasRegistradas);
+                    ExibirOpcoesDoMenu();
                     break;
                 case 5:
-                    MenuExibirDetalhes menu = new();
-                    menu.Executar(bandasRegistradas);
+                    MenuExibirDetalhes menu5 = new();
+                    menu5.Executar(bandasRegistradas);
                     ExibirOpcoesDoMenu();
                     break;
                 case -1:
@@ -138,34 +140,7 @@ internal class Program
             Console.WriteLine(titulo);
             Console.WriteLine(asteriscos + "\n");
         }
-
-        void AvaliarUmaBanda()
-        {
-            Console.Clear();
-            ExibirTituloDaOpcao("Avaliar banda");
-            Console.Write("Digite o nome da banda que deseja avaliar: ");
-            string nomeDaBanda = Console.ReadLine()!;
-            if (bandasRegistradas.ContainsKey(nomeDaBanda))
-            {
-                Banda banda = bandasRegistradas[nomeDaBanda];
-                Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
-                int nota = int.Parse(Console.ReadLine()!);
-                banda.AdicionarNota(new Avaliacao(nota));
-                Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
-                Thread.Sleep(2000);
-                Console.Clear();
-                ExibirOpcoesDoMenu();
-            }
-            else
-            {
-                Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
-                Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-                Console.ReadKey();
-                Console.Clear();
-                ExibirOpcoesDoMenu();
-            }
-
-        }
+    
         ExibirOpcoesDoMenu();
     }
 }
