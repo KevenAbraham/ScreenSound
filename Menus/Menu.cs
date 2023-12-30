@@ -10,12 +10,11 @@ internal class Menu
         string asteriscos = string.Empty.PadLeft(quantidadeDeLetras, '=');
         Console.WriteLine(asteriscos);
         Console.WriteLine(titulo);
-        Console.WriteLine(asteriscos);
+        Console.WriteLine(asteriscos + '\n');
     }
 
     public virtual void Executar(Dictionary<string, Banda> bandasRegistradas)
     {
         Console.Clear();
-
     }
 }
