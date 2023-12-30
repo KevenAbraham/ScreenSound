@@ -2,7 +2,6 @@ namespace ScreenSound.Modelos;
 
 internal class Musica
 {
-
     public string Nome { get; }
     public Banda Artista { get; }
     public int Duracao { get; set; }
