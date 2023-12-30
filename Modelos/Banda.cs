@@ -5,6 +5,7 @@ internal class Banda : IAvaliacao
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
     public string Nome { get; }
+    public string? Resumo { get; set; } //aceita nulo
     public double Media
     {
         get
